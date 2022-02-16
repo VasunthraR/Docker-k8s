@@ -1,7 +1,7 @@
 node{
   
   stage('code build'){
-    git 'https://github.com/VasunthraR/simpleapp'
+    git 'https://github.com/VasunthraR/Docker-k8s'
   }
   stage('build') {
     def mvnHome = tool name: 'maven3', type: 'maven'
